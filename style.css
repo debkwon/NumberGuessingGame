@@ -1,0 +1,111 @@
+body {
+  background-image: url('pokemon.png');
+}
+
+#input-parent {
+  width: 200px;
+  margin: 0 auto;
+  padding:25px;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.guess {
+  height: 100px;
+  width: 100px;
+  font-size: 75px;
+  padding-top: 5px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 20%;
+  line-height: 80px;
+  background-color: white;
+}
+
+
+#player-input{
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  font-size: 65px;
+  padding-left: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#submit {
+  border: 1px solid gray;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 20px;
+  background-color: #69BF6B;
+  top: 155px;
+  left: 150px;
+  position: absolute;
+}
+
+#menu-btns{
+  margin: 5px;
+}
+
+.opaque {
+  background-color: white;
+  opacity: 0.9;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#headers{
+  margin: -15px;
+}
+
+#guess1{
+  color: #1616c9;
+}
+#guess2 {
+  color: #19aa06;
+}
+
+#guess3{
+  color: #ffe500;
+}
+
+#guess4{
+  color: #f78c00;
+}
+
+#guess5{
+  color: #fc0f0f;
+}
+
+
+
+
+
+
+
+
+
